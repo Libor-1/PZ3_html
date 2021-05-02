@@ -1,0 +1,57 @@
+.wrapper ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main {
+    margin-left: -30px;
+}
+
+.wrapper ul li{
+    background: rgb(22, 21, 21);
+    width: 200px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 40px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    
+}
+
+
+li a{
+    color: red;
+    text-decoration: none;
+}
+
+.wrapper ul li:hover{
+background:greenyellow;
+}
+
+
+.wrapper ul ul{
+    display: none;
+    width: 200px;
+}
+
+ul ul {
+    display: block;
+    width: 200px;
+    }
+    
+    li li {
+        float: none;
+    }
+    
+    ul li:hover ul{
+        position: absolute;
+        display: inline-block;   
+    }
+    
+ 
+    
+    
