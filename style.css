@@ -1,7 +1,15 @@
 .wrapper ul {
     list-style: none;
     margin-top: 20px;
+    position: relative;
 }
+
+.wrapper ul ul{
+position: absolute;
+margin-left: 25px;
+top: 0;
+}
+
 
 .main {
     margin-left: -30px;
@@ -51,6 +59,20 @@ ul ul {
         position: absolute;
         display: inline-block;   
     }
+
+    ul ul ul, ul li:hover ul ul {
+        display: none;
+    }
+    
+    ul li:hover ul li:hover ul {
+        display: block;
+    }
+
+    .wrapper ul ul ul{
+        position: absolute;
+        margin-left: 145px;
+        top: 0;
+        }
     
  
     
